@@ -11,10 +11,17 @@
     </h3>
     <h3><a href="http://twitter.com/{{(memberToDisplay | async)?.twitter}}">{{(memberToDisplay | async)?.name}}</a></h3>
     <h4><a href="mailto:{{(memberToDisplay | async)?.email}}">{{(memberToDisplay | async)?.email}}</a></h4>
-    <p>{{(memberToDisplay | async)?.description}}</p>
-    <p>{{(memberToDisplay | async)?.description}}</p>
-    <p>{{(memberToDisplay | async)?.description}}</p>
-    <p>{{(memberToDisplay | async)?.description}}</p>
-    <p>{{(memberToDisplay | async)?.description}}</p>
+
+    <p><span>Twitter handle: </span>
+      <a href="{{(memberToDisplay | async)?.twitter}}">@{{(memberToDisplay | async)?.twitter}}</a></p>
+
+    <p><span>Favorite book: </span>
+      {{(memberToDisplay | async)?.book}}</p>
+
+    <p><span>Favorite movie: </span>
+      {{(memberToDisplay | async)?.movie}}</p>
+
+    <p><span>Bio: </span>
+      {{(memberToDisplay | async)?.description}}</p>
   </div>
 </div>
