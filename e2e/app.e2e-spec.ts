@@ -1,10 +1,10 @@
-import { JavascriptWeek3Page } from './app.po';
+import { OnlineStorePage } from './app.po';
 
-describe('javascript-week3 App', () => {
-  let page: JavascriptWeek3Page;
+describe('online-store App', () => {
+  let page: OnlineStorePage;
 
   beforeEach(() => {
-    page = new JavascriptWeek3Page();
+    page = new OnlineStorePage();
   });
 
   it('should display message saying app works', () => {

@@ -1,0 +1,69 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Member to Inventory</h3>
+  </div>
+  <div class="panel-body">
+    <div>s
+      <div>
+        <label>Member Title:</label>
+        <br>
+        <input #newImage>
+      </div>
+
+      <div>
+        <label>Member Artist:</label>
+        <br>
+        <input #newName>
+      </div>
+
+      <div>
+        <label>Member Artist:</label>
+        <br>
+        <input #newEmail>
+      </div>
+
+      <div>
+        <label>Member Artist:</label>
+        <br>
+        <input #newTwitter>
+      </div>
+
+      <div>
+        <label>Member Artist:</label>
+        <br>
+        <input #newBook>
+      </div>
+
+      <div>
+        <label>Member Artist:</label>
+        <br>
+        <input #newMovie>
+      </div>
+
+      <div>
+        <label>Member Description:</label>
+        <br>
+        <textarea #newDescription></textarea>
+      </div>
+      <button (click)="submitForm(
+      newImage.value,
+      newName.value,
+      newEmail.value,
+      newTwitter.value,
+      newBook.value,
+      newMovie.value,
+      newDescription.value);
+      newImage.value='';
+      newName.value='';
+      newEmail.value='';
+      newTwitter.value='';
+      newBook.value='';
+      newMovie.value='';
+      newDescription.value=''">Add</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <app-marketplace></app-marketplace>
+</div>
