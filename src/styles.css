@@ -85,11 +85,11 @@ h1, h2, h3, h4, h5, h6 {
 .nudge {
   margin-top: 60px;
   margin-bottom: 100px;
-  background-color: #111;
+  background-color: inherit;
 }
 
 .container {
-  /*background-color: #111;*/
+  max-width: 1100px;
 }
 
 .member-img {

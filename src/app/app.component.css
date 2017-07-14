@@ -17,6 +17,10 @@ nav a:hover {
   color: #523a68;
 }
 
+nav a:focus, nav a:active {
+  color: #00edfa;
+}
+
 .navbar-right a {
   color: white;
   font-size: 20px;
