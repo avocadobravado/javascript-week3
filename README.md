@@ -1,5 +1,12 @@
-# HELLO 5 PM CREEPERS, MORE STUFF COMING SOON 😳
+# COMING SOON 😳
 
+
+
+![screenshot of project](https://github.com/avocadobravado/javascript-week3/raw/master/src/assets/scs01.png?raw=true)
+
+![screenshot of project](https://github.com/avocadobravado/javascript-week3/raw/master/src/assets/scs02.png?raw=true)
+
+![screenshot of project](https://github.com/avocadobravado/javascript-week3/raw/master/src/assets/scs03.png?raw=true)
 
 
 # JavaScript Week 3 Independent Project - Club Manager
