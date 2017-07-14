@@ -10,11 +10,21 @@ nav, .navbar, .navbar-default {
 nav a {
   font-size: 30px;
   color: #00edfa;
+  transition: 0.3s all ease-in-out;
+}
+
+nav a:hover {
+  color: #523a68;
 }
 
 .navbar-right a {
   color: white;
   font-size: 20px;
+}
+
+.navbar-right a:hover {
+  background-color: #00edfa;
+  transform: translateY(-.1em);
 }
 
 nav {
