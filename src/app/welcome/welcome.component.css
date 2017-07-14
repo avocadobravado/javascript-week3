@@ -1,8 +1,5 @@
 /* Image */
 .background {
-  /*position: relative;
-  top: 0;
-  left: 0;*/
   background: url('../../assets/hero.gif');
   height: 90vh;
   background-repeat: no-repeat;
