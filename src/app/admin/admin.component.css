@@ -7,11 +7,32 @@
   margin-top: -50px;
 }
 
+.panel {
+  background-color: inherit;
+}
+
 .container {
-  background-color: red;
+  background-color: #523a68;
+  width: 50%;
+  box-shadow: 2px 2px 10px #000;
+  transition: 0.3s ease-in-out all;
 }
 
 label, input {
   display: block;
-  color: red;
+  color: #fafafa;
+}
+
+label {
+  padding: 10px 0;
+}
+
+input {
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  outline: none;
+  color: #333;
 }

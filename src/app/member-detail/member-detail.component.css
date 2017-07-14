@@ -1,0 +1,6 @@
+.jumbotron {
+  background: url('../../assets/alley.gif');
+  background-size: cover;
+  background-position: top;
+  height: 350px;
+}

@@ -107,3 +107,43 @@ h3:hover {
 .member-img {
 
 }
+
+label, input {
+  display: block;
+  width: 100%;
+  outline: none;
+  color: #00edfa;
+}
+
+
+label {
+  text-align: left;
+}
+
+input {
+  color: #333;
+  transition: 0.3s all ease-in-out;
+  border: 1px solid #1f162e;
+  border-radius: 3px;
+  padding: 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+input:hover, input:focus, input:active {
+  padding: 10px;
+  border: 1px solid #111;
+  background-color: #bffbff;
+}
+
+button {
+  background-color: #d748f0;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: 0.3s all ease-in-out;
+}
+
+button:hover {
+  background-color: #1f162e;
+}

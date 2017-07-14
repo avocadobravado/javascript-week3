@@ -1,3 +1,11 @@
+.jumbotron {
+  background: url('http://orig15.deviantart.net/aa7f/f/2016/110/c/b/virtuaverse_by_valenberg-d9zknoe.gif');
+  background-size: cover;
+  background-position: top;
+  height: 350px;
+}
+
+
 .member-img {
   border: 5px solid #d748f0;
   height: 250px;
