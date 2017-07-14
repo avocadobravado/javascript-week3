@@ -1,0 +1,11 @@
+  <h2>List</h2>
+  <div *ngFor="let member of members | async"  class="panel panel-default">
+    <div class="panel-body">
+      <h3 (click)="goToDetailPage(member)"><em>{{member.name}}</em> by {{member.email}}</h3>
+      <div *ngIf="currentRoute === '/admin'">
+        {{member.description}}
+        <hr>
+        <app-edit-member [selectedMember]="member"></app-edit-member>
+      </div>
+    </div>
+  </div>

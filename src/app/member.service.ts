@@ -30,9 +30,9 @@ export class MemberService {
                                 name: localUpdatedMember.name,
                                 email: localUpdatedMember.email,
                                 twitter: localUpdatedMember.twitter,
-                                book: localUpdatedMember.twitter,
-                                movie: localUpdatedMember.twitter,
-                                description: localUpdatedMember.twitter
+                                book: localUpdatedMember.book,
+                                movie: localUpdatedMember.movie,
+                                description: localUpdatedMember.description
                                });
   }
 

@@ -8,7 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { PipeNamePipe } from './pipe-name.pipe';
 import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { ListComponent } from './list/list.component';
 import { MemberDetailComponent } from './member-detail/member-detail.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
@@ -29,7 +29,7 @@ export const firebaseConfig = {
     WelcomeComponent,
     PipeNamePipe,
     AboutComponent,
-    MarketplaceComponent,
+    ListComponent,
     MemberDetailComponent,
     AdminComponent,
     EditMemberComponent

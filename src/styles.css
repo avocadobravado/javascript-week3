@@ -1,6 +1,12 @@
 /* blue #00edfa
 */
 
+body {
+  background-color: #1f162e;
+  font-size: 19px;
+  color: red;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -8,4 +14,9 @@
   height: 60px;
   background-color: #00edfa;
   padding: 15px;
+}
+
+.nudge {
+  margin-top: 60px;
+  background-color: whitesmoke;
 }

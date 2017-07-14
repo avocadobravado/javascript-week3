@@ -5,13 +5,13 @@ import { MemberService } from '../member.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
-  selector: 'app-marketplace',
-  templateUrl: './marketplace.component.html',
-  styleUrls: ['./marketplace.component.css'],
+  selector: 'app-list',
+  templateUrl: './list.component.html',
+  styleUrls: ['./list.component.css'],
   providers: [MemberService]
 })
 
-export class MarketplaceComponent implements OnInit {
+export class ListComponent implements OnInit {
 
   members: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;

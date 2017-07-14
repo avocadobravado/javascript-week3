@@ -1,5 +1,7 @@
-<div>
-  <h3>{{(albumToDisplay | async)?.title}}</h3>
-  <h4>{{(albumToDisplay | async)?.artist}}</h4>
-  <p>{{(albumToDisplay | async)?.description}}</p>
+<div class="container">
+  <div>
+    <h3>{{(memberToDisplay | async)?.name}}</h3>
+    <h4>{{(memberToDisplay | async)?.email}}</h4>
+    <p>{{(memberToDisplay | async)?.description}}</p>
+  </div>
 </div>

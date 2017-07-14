@@ -1,7 +1,8 @@
-  <h2>Marketplace</h2>
+<div class="container nudge">
+  <h2>List</h2>
   <div *ngFor="let member of members | async"  class="panel panel-default">
     <div class="panel-body">
-      <h3 (click)="goToDetailPage(member)"><em>{{member.title}}</em> by {{member.artist}}</h3>
+      <h3 (click)="goToDetailPage(member)"><em>{{member.name}}</em> by {{member.email}}</h3>
       <div *ngIf="currentRoute === '/admin'">
         {{member.description}}
         <hr>
@@ -9,3 +10,4 @@
       </div>
     </div>
   </div>
+</div>
