@@ -1,7 +1,4 @@
-# FIREBASE NOTES
-
-
-# OnlineStore
+# JavaScript Week 3 Independent Project - Club Manager
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 

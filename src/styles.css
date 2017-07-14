@@ -1,6 +1,7 @@
-body {
-  background-color: red;
-}
+/*body {
+  background: url('./assets/hero.gif');
+  background-size: cover;
+}*/
 
 .footer {
   position: fixed;

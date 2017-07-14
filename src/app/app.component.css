@@ -1,0 +1,14 @@
+nav, .navbar, .navbar-default {
+  border-radius: 0;
+  background-color: #d748f0;
+  border: none;
+  margin-bottom: -30px;
+}
+
+nav a {
+  color: white;
+}
+
+nav {
+  box-shadow: 10px 10px 10px 10px solid red;
+}
