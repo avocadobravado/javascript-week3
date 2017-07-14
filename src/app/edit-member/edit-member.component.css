@@ -1,0 +1,19 @@
+
+
+#editing {
+  background-color: blue;
+}
+
+div {
+  margin: 0 auto;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+input {
+  color: #333;
+}

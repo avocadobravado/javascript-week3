@@ -1,4 +1,7 @@
-<div class="container">
+<div class="container nudge">
+  <div class="back">
+    <a routerLink="../../list">&larr; Go back to Members</a>
+  </div>
   <div>
     <h3>{{(memberToDisplay | async)?.name}}</h3>
     <h4>{{(memberToDisplay | async)?.email}}</h4>

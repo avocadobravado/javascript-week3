@@ -1,31 +1,32 @@
-<h1>Edit Member Information</h1>
+<div class="panel edit" class="editing">
+  <label>Edit Image:</label>
+  <input [(ngModel)]="selectedMember.image">
+  <br>
 
-<label>Edit Image:</label>
-<input [(ngModel)]="selectedMember.image">
-<br>
+  <label>Edit Name:</label>
+  <input [(ngModel)]="selectedMember.name">
+  <br>
 
-<label>Edit Name:</label>
-<input [(ngModel)]="selectedMember.name">
-<br>
+  <label>Edit Email:</label>
+  <input [(ngModel)]="selectedMember.email">
+  <br>
 
-<label>Edit Email:</label>
-<input [(ngModel)]="selectedMember.email">
-<br>
+  <label>Edit Twitter address:</label>
+  <input [(ngModel)]="selectedMember.twitter">
+  <br>
 
-<label>Edit Twitter address:</label>
-<input [(ngModel)]="selectedMember.twitter">
-<br>
+  <label>Edit Book:</label>
+  <input [(ngModel)]="selectedMember.book">
+  <br>
 
-<label>Edit Book:</label>
-<input [(ngModel)]="selectedMember.book">
-<br>
+  <label>Edit Movie:</label>
+  <input [(ngModel)]="selectedMember.movie">
+  <br>
 
-<label>Edit Movie:</label>
-<input [(ngModel)]="selectedMember.movie">
-<br>
+  <label>Edit Bio:</label>
+  <input [(ngModel)]="selectedMember.description">
 
-<label>Edit Bio:</label>
-<input [(ngModel)]="selectedMember.description">
+  <button (click)="beginUpdatingMember(selectedMember)" class="btn">Update</button>
+  <button (click)='beginDeletingMember(selectedMember)' class="btn">Delete</button>
 
-<button (click)="beginUpdatingMember(selectedMember)" class="btn">Update</button>
-<button (click)='beginDeletingMember(selectedMember)' class="btn">Delete</button>
+</div>

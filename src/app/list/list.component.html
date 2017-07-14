@@ -1,24 +1,20 @@
 <div class="container nudge">
-  <h2>Our Members</h2>
+  <h2>The Low Lifes</h2>
   <div class="row">
     <div class="col-sm-12 panel-wrapper">
       <div *ngFor="let member of members | async"  class="panel">
         <div class="panel-body">
           <!--Image-->
-          <div class="img-wrapper">
+          <div (click)="goToDetailPage(member)" class="img-wrapper">
             <img src="{{member.image}}" class="member-img img-circle">
           </div>
 
           <!--Overview of member info-->
           <h3 (click)="goToDetailPage(member)">
-            {{member.name}}</h3>
+            {{member.name}} &rarr;</h3>
             <a href="http://twitter.com/{{member.twitter}}">@{{member.twitter}}</a>
 
-            <p>{{member.description}}</p>
-
             <div *ngIf="currentRoute === '/admin'">
-              {{member.description}}
-              <hr>
               <app-edit-member [selectedMember]="member"></app-edit-member>
         </div>
       </div>

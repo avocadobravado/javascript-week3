@@ -9,10 +9,12 @@ body {
 
 a {
   color: #fff;
+  transition: 0.3s all ease-in-out;
 }
 
 a:hover {
   text-decoration: none;
+  color: #d748f0;
 }
 
 li a {
@@ -22,16 +24,25 @@ li a {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #00edfa;
+  transition: 0.3s all ease-in-out;
+}
+
+h3:hover {
+  color: #1f162e;
 }
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 75px;
   background-color: #00edfa;
   padding: 15px;
   text-align: center;
+}
+
+.footer a {
+  color: white;
 }
 
 .animation {
@@ -90,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 1100px;
+  color: #fafafa;
 }
 
 .member-img {

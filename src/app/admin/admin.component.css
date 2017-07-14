@@ -6,3 +6,12 @@
   height: 350px;
   margin-top: -50px;
 }
+
+.container {
+  background-color: red;
+}
+
+label, input {
+  display: block;
+  color: red;
+}
