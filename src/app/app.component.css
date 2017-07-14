@@ -3,10 +3,18 @@ nav, .navbar, .navbar-default {
   background-color: #d748f0;
   border: none;
   margin-bottom: -30px;
+  height: 80px;
+  padding-top: 15px;
 }
 
 nav a {
+  font-size: 30px;
+  color: #00edfa;
+}
+
+.navbar-right a {
   color: white;
+  font-size: 20px;
 }
 
 nav {

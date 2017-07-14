@@ -1,18 +1,28 @@
 <div class="container nudge">
-  <h2>List</h2>
-  <div *ngFor="let member of members | async"  class="panel panel-default">
-    <div class="panel-body">
-      <h3 (click)="goToDetailPage(member)">
-        <em>{{member.name}}</em> by {{member.email}}</h3>
-        <p>{{member.description}}</p>
-        <div class="img-wrapper">
-          <img src="{{member.image}}" class="member-img img-circle">
+  <h2>Our Members</h2>
+  <div class="row">
+    <div class="col-sm-12">
+      <div *ngFor="let member of members | async"  class="panel">
+        <div class="panel-body">
+          <!--Image-->
+          <div class="img-wrapper">
+            <img src="{{member.image}}" class="member-img img-circle">
+          </div>
+
+          <!--Overview of member info-->
+          <h3 (click)="goToDetailPage(member)">
+            {{member.name}}</h3>
+            <a href="http://twitter.com/{{member.twitter}}">@{{member.twitter}}</a>
+
+            <p>{{member.description}}</p>
+
+            <div *ngIf="currentRoute === '/admin'">
+              {{member.description}}
+              <hr>
+              <app-edit-member [selectedMember]="member"></app-edit-member>
         </div>
-      <div *ngIf="currentRoute === '/admin'">
-        {{member.description}}
-        <hr>
-        <app-edit-member [selectedMember]="member"></app-edit-member>
       </div>
+    </div>
     </div>
   </div>
 </div>
