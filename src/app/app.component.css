@@ -7,8 +7,18 @@ nav, .navbar, .navbar-default {
   padding-top: 15px;
 }
 
+.navbar-brand {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  text-shadow: 4px 5px 5px #c042d6;
+}
+
 nav a {
-  font-size: 30px;
+  margin-top: 5px;
+  font-size: 40px;
   color: #00edfa;
   transition: 0.3s all ease-in-out;
 }

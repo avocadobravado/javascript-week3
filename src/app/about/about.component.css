@@ -4,3 +4,8 @@
   background-position: center;
   height: 350px;
 }
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}

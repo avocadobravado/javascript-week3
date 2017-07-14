@@ -3,8 +3,10 @@
 
 body {
   background-color: #1f162e;
-  font-size: 19px;
+  font-size: 20px;
   color: #333;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: .01em;
 }
 
 a {
@@ -24,11 +26,21 @@ li a {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #00edfa;
+  font-family: 'Fjalla One', sans-serif;
   transition: 0.3s all ease-in-out;
+  line-height: 1.2em;
 }
 
 h3:hover {
   color: #1f162e;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .footer {

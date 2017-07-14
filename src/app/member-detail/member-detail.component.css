@@ -17,6 +17,13 @@
   transition: 0.3s ease-in-out all;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
 span {
   font-weight: bold;
   color: #d748f0;
