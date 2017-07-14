@@ -4,3 +4,19 @@
   background-position: top;
   height: 350px;
 }
+
+.container {
+  background-color: #523a68;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 2px 2px 10px #000;
+  transition: 0.3s ease-in-out all;
+}
+
+img {
+  border: 5px solid #d748f0;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  max-width: 500px;
+}

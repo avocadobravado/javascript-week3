@@ -6,8 +6,15 @@
     <a routerLink="../../list">&larr; Go back to Members</a>
   </div>
   <div>
-    <h3>{{(memberToDisplay | async)?.name}}</h3>
-    <h4>{{(memberToDisplay | async)?.email}}</h4>
+    <h3>
+      <img src="{{(memberToDisplay | async)?.image}}">
+    </h3>
+    <h3><a href="http://twitter.com/{{(memberToDisplay | async)?.twitter}}">{{(memberToDisplay | async)?.name}}</a></h3>
+    <h4><a href="mailto:{{(memberToDisplay | async)?.email}}">{{(memberToDisplay | async)?.email}}</a></h4>
+    <p>{{(memberToDisplay | async)?.description}}</p>
+    <p>{{(memberToDisplay | async)?.description}}</p>
+    <p>{{(memberToDisplay | async)?.description}}</p>
+    <p>{{(memberToDisplay | async)?.description}}</p>
     <p>{{(memberToDisplay | async)?.description}}</p>
   </div>
 </div>
