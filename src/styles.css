@@ -4,7 +4,7 @@
 body {
   background-color: #1f162e;
   font-size: 19px;
-  color: red;
+  color: #333;
 }
 
 .footer {
@@ -18,5 +18,11 @@ body {
 
 .nudge {
   margin-top: 60px;
+  /*padding-bottom: 100px;*/
+  margin-bottom: 100px;
   background-color: whitesmoke;
+}
+
+.member-img {
+
 }

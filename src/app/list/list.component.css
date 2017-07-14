@@ -1,0 +1,9 @@
+.img-wrapper {
+  text-align: center;
+}
+
+.member-img {
+  border: 5px solid red;
+  height: 200px;
+  width: 250px;
+}

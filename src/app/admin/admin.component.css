@@ -1,0 +1,8 @@
+.jumbotron {
+  /*background-color: #00edfa;*/
+  background: url('../../assets/rainycity.gif');
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+  margin-top: -50px;
+}

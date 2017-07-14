@@ -1,14 +1,30 @@
-<h4>Edit Member</h4>
+<h1>Edit Member Information</h1>
 
-<label>New Member Title:</label>
-<input [(ngModel)]="selectedMember.title">
+<label>Edit Image:</label>
+<input [(ngModel)]="selectedMember.image">
 <br>
 
-<label>New Member Artist:</label>
-<input [(ngModel)]="selectedMember.artist">
+<label>Edit Name:</label>
+<input [(ngModel)]="selectedMember.name">
 <br>
 
-<label>New Member Description:</label>
+<label>Edit Email:</label>
+<input [(ngModel)]="selectedMember.email">
+<br>
+
+<label>Edit Twitter address:</label>
+<input [(ngModel)]="selectedMember.twitter">
+<br>
+
+<label>Edit Book:</label>
+<input [(ngModel)]="selectedMember.book">
+<br>
+
+<label>Edit Movie:</label>
+<input [(ngModel)]="selectedMember.movie">
+<br>
+
+<label>Edit Bio:</label>
 <input [(ngModel)]="selectedMember.description">
 
 <button (click)="beginUpdatingMember(selectedMember)" class="btn">Update</button>
