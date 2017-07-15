@@ -45,7 +45,11 @@ Create an api-keys.ts file:
 $ touch src/app/api-keys.ts
 ```
 
-Go to http://firebase.google.com, sign up for an account, then click on "Go to Console", "Add project" then add your project's name, then click on "Add Firebase to your Web App", finally add the information from the pop up modal from Firebase to your api-keys.ts file (it should look something like this, but use your own information and not what is provided below):
+* Go to http://firebase.google.com and sign up for an account
+* Once signed up, click on "Go to Console"
+* Then, "Add project" and add your project's name
+* From there, click on "Add Firebase to your Web App"
+* Finally, add the information from the pop up modal from Firebase to your api-keys.ts file (it should look something like this, but replace the information inside the masterFirebaseConfig with your own unique information):
 
 ```
 export var masterFirebaseConfig = {
@@ -109,7 +113,7 @@ localhost:4200
 
 ## Acknowledgements
 
-* [virtuaverse](https://twitter.com/virtuaverse?lang=en) - for the GIF files
+* [VirtuaVerse](https://twitter.com/virtuaverse?lang=en) - for the the GIFs
 
 ## License
 
