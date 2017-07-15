@@ -1,6 +1,14 @@
-# COMING SOON 😳
+# Angular CRUD - Club Manager
 
+#### Week 3 Independent Project - JavaScript
 
+#### By **Rose Sponseller, July 14, 2017**
+
+## Description
+
+The High Tech Low Life Club is a web application built with Angular for a group of cyberpunk enthusiasts. As a user, you can view information about the club, see a list of the members, can click on the members to read their full details. As an administrator, you can edit member information, delete members, and add new members.
+
+## Screenshots of Web Application
 
 ![screenshot of project](https://github.com/avocadobravado/javascript-week3/raw/master/src/assets/scs01.png?raw=true)
 
@@ -8,32 +16,103 @@
 
 ![screenshot of project](https://github.com/avocadobravado/javascript-week3/raw/master/src/assets/scs03.png?raw=true)
 
+### Installation
 
-# JavaScript Week 3 Independent Project - Club Manager
+#### Prerequisites
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+* Web browser with ES6 compatibility
+* Node.js
+* npm
+* Angular
+* TypeScript
+* Git
 
-## Development server
+Open your terminal and clone this repository with the following command:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+$ git clone https://github.com/avocadobravado/javascript-week3
+```
 
-## Code scaffolding
+Move into the cloned repository:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+```
+$ cd javascript-week3
+```
 
-## Build
+Create an api-keys.ts file:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
+$ touch src/app/api-keys.ts
+```
 
-## Running unit tests
+Go to http://firebase.google.com, sign up for an account, then click on "Go to Console", "Add project" then add your project's name, then click on "Add Firebase to your Web App", finally add the information from the pop up modal from Firebase to your api-keys.ts file (it should look something like this, but use your own information and not what is provided below):
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+export var masterFirebaseConfig = {
+  apiKey: "xxxxx",
+  authDomain: "xxxxx",
+  databaseURL: "xxxxx",
+  projectId: "xxxxx",
+  storageBucket: "",
+  messagingSenderId: "xxxxx"
+};
+```
 
-## Running end-to-end tests
+Install npm and Bower by typing:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+```
+$ npm install
+$ bower install
+```
 
-## Further help
+Set up the build:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+$ ng build
+```
+
+Start the server:
+
+```
+$ ng serve
+```
+
+The previous step should immediately open up a web browser such as Google Chrome and take you to the site, but if not, visit the following address in your preferred browser:
+
+```
+localhost:4200
+```
+
+## Built With
+
+### Code
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* TypeScript
+* Angular 2
+
+### Tools &amp; Dependencies
+* Node
+* Bower
+* npm
+* Angular CLI
+* Firebase
+
+### Design
+* Google Fonts
+
+## Support and contact details
+
+* Feel free to reach out with suggestions at rosesponseller@gmail.com
+
+## Acknowledgements
+
+* [virtuaverse](https://twitter.com/virtuaverse?lang=en) - for the GIF files
+
+## License
+
+This project is licensed under the MIT License
+
+**_Rose Sponseller_** Copyright (c) 2017
