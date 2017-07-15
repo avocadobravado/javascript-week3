@@ -23,6 +23,7 @@ The High Tech Low Life Club is a web application built with Angular for a group 
 * Web browser with ES6 compatibility
 * Node.js
 * npm
+* Firebase
 * Angular
 * TypeScript
 * Git
